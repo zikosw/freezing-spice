@@ -1,6 +1,10 @@
 package ctrl
 
-import "fmt"
+import (
+	"fmt"
+)
+
+var name string = "ziko"
 
 func Ctrl() {
 	fmt.Println("This is CTRL")
